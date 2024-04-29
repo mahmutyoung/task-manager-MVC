@@ -15,7 +15,7 @@ const controller = {
   },
   handleAddTask: function (e) {
     e.preventDefault();
-    const input = document.getElementById('newTask');
+    const input = document.getElementById('task-input');
 
     model.addTask(input.value);
     view.render();
